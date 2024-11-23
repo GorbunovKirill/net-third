@@ -3,7 +3,7 @@
 #include "dbconnectiondialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), ui(new Ui::MainWindow) {
+    : QMainWindow(parent), ui(new Ui::Connection) {
     ui->setupUi(this);
 
 
